@@ -18,3 +18,5 @@ places= ["Glasgow", "Edinburgh", "Manchester", "Chicago", "Cardiff"]
 
 random_place = choice(places)
 
+custom_module.generate_time_travel_message(random_year, random_place, final_cost)
+
