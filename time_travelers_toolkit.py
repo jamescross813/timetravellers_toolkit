@@ -11,3 +11,5 @@ print(current_date_and_time.strftime('%l:%M%p %Z on %b %d, %Y'))
 base_cost = Decimal('8.73')
 
 cost_multiplier = abs(current_year-random_year)
+
+final_cost = base_cost * cost_multiplier
