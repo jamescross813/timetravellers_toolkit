@@ -14,4 +14,7 @@ cost_multiplier = abs(current_year-random_year)
 
 final_cost = base_cost * cost_multiplier
 
+places= ["Glasgow", "Edinburgh", "Manchester", "Chicago", "Cardiff"]
+
+random_place = choice(places)
 
