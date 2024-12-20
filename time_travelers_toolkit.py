@@ -8,3 +8,5 @@ current_year = dt.date.today().year
 current_date_and_time = dt.datetime.now().time()
 print(current_date_and_time.strftime('%l:%M%p %Z on %b %d, %Y'))
 
+base_cost = Decimal('8.73')
+
